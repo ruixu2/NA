@@ -1,9 +1,9 @@
 # x^2-a=0, compute x by a
 import random
 # a=input("input a:")
-a=114
+a=36
 a=float(a)
-x1=random()
+x1=random.random()
 x2=x1
 while True:
     x2=0.5*(x1+a/x1)
